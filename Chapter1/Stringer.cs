@@ -3,8 +3,8 @@
 /// Chapter 1 | Arrays and Strings
 /// </summary>
 #pragma warning restore 1587
-namespace Chapter1
-{
+namespace DataStructuresAlgorithms
+{ 
     using System.Linq; 
     using System.Text;
 
@@ -32,7 +32,7 @@ namespace Chapter1
         /// <param name="data"></param>
         /// <returns></returns>
         private static bool UniqueNaive(string data)
-        {
+        { 
             int size = data.Length;
             for (int i = 0; i < size; ++i)
             {
@@ -314,5 +314,6 @@ namespace Chapter1
             return array;
         }
         #endregion
+
     }
 }

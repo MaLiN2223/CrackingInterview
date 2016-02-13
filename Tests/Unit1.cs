@@ -1,13 +1,10 @@
-﻿
-namespace Tests
+﻿namespace Tests
 {
-    using System;
-    using System.Diagnostics;
     using System.Linq;
-    using Chapter1;
+    using DataStructuresAlgorithms;
     using NUnit.Framework;
     [TestFixture]
-    public class UnitTest1
+    public class Unit1
     {
         [Test]
         public void StringerUniquity()
